@@ -17,7 +17,7 @@ class CheckIP(IPv4):
 
 class InputIP(CheckIP):
     def __init__(self):
-        self.IP = input("Input IP: ")
+        self.IP = input("Input IP check: ")
 
 class OutIP(InputIP):
     def outip(self):
@@ -25,7 +25,7 @@ class OutIP(InputIP):
         if(self.data==True):
             print(self.IP,"is IPv4")
         else:
-            print(self.IP,"Not IPv4")
+            print(self.IP,"not IPv4")
 
 if __name__ == "__main__":
     checkip = OutIP()
