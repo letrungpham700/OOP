@@ -1,4 +1,4 @@
-# Lê Trung Phẩm
+
 class Nhanvien:
     def __init__(self,name,age,address):
         self.name=name
