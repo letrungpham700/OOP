@@ -1,5 +1,5 @@
 
-from .Check import CheckIP
+from Check import CheckIP
 
 if __name__ == "__main__":
     checkip = CheckIP.OutIP()
